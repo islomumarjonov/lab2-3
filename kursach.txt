@@ -1,1 +1,115 @@
-qwerty
+resume 
+html/
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rezume</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <h1 align="center">Резюме</h1>
+  <div class="left">
+
+    <p>
+      <img src="../img/Me.jpg" width="150px" height="150px" alt="">
+      <span class="center">   Умаржанов Ислам Баходир угли</span>
+
+    </p>
+    <p class="information"><b>Личная информация</b></p>
+    <div class="line">
+      <p> <span class="color">Гражданство:</span> Узбекистан</p>
+      <p><span class="color">Образование:</span> Среднее</p>
+      <p><span class="color">Дата рождения:</span> 5.08.2002г.(20лет)</p>
+      <p><span class="color">Пол:</span> Мужской</p>
+      <p><span class="color">Семейное положение: </span>Холост</p>
+    </div>
+    <p class="information"><b>Дополнительная информация</b></p>
+    <div class="line">
+      <p><span class="color">Занятие в свободное время:</span><br>Настольный теннис, футбол, плавание</b></p>
+      <p><span class="color">Личные качества:</span><br>Ответственный подход к работе
+        ,пунктуальнсть,</p>
+      <p>стрессоустойчивость,тактичность, коммуникабельность,</p>
+      <p>внимательность, испольнительность, решительность</br></p>
+    </div>
+  </div>
+  <div class="right">
+    <div class="line">
+      <p class="color"><b>Должность</b></p>
+      <p>Frontend разработчик</p>
+      <P class="color"><b>Занятность</b></P>
+      <p> <img src="../img/true.svg" alt="Галочка" width="20px" height="20px">
+        <span>Полный рабочий день</span>
+      </p>
+    </div>
+    <div class="line">
+      <p class="color"><b>Контакты</b></p>
+      <p>+375(25)7160218</p>
+      <p class="color">Email</p>
+      <p><a href="https://www.google.com/intl/ru/gmail/about/">islomumarjonov01@gmail.com</a></p>
+    </div>
+    <div class="line">
+      <p class="color"><b>Иностранные языки</b></p>
+      <p>Узбекский(в совершенстве),</p>
+      <p> русский(отлично) и анг.яз(базовый)</p>
+    </div>
+    <div class="line">
+      <p class="color"><b>Компьютерные навыки</b></p>
+      <ul>
+        <li>HTML, CSS и JS(react)</li>
+        <li>Pythont</li>
+        <li>C++</li>
+        <li>PHP</li>
+
+      </ul>
+    </div>
+
+  </div>
+</body>
+
+</html>
+
+css/
+body {
+background-color: #f2f3f4;
+margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+}
+.center {
+  text-align: center;
+  vertical-align: top;
+  font-size: 4.2vh;
+}
+
+.information {
+  font-size: 17pt;
+}
+
+.line{
+  border-left: 2px solid #ccc;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.color{
+  color:#ccc;
+}
+
+.left{
+  width: 650px;
+  height: 680px;
+}
+
+.right{
+  width: 550px;
+  height: 650px;
+
+  margin-left: 650px;
+  margin-top: -680px;
+}
+
